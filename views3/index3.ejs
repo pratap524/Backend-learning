@@ -9,11 +9,11 @@
 </head>
 <body>
     <div style="padding: 30px;"class="bg-blue-500 text-white p-4">
-        <form action="">
-            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="text" name="Email" id="" placeholder="Email">
-            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="text" name="Name" id="" placeholder="Name">
-            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="number" name="Age" id="" placeholder="Age">
-            <input style="padding: 15px; background-color: rgb(41, 41, 152); height: 40px; width: 100px; border-radius: 20px; box-shadow: none; border: none;" class="" type="text" value="Create User">
+        <form action="/create" method="post">
+            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="text" name="email" id="" placeholder="Email" required>
+            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="text" name="name" id="" placeholder="Name" required>
+            <input  style="padding: 10px; display: flex; margin-bottom: 20px; border-radius: 30px;"class=" px-5 py-2 border-2 border-zinc-800 outline-none" type="number" name="age" id="" placeholder="Age" required>
+            <button style="padding: 8px; background-color: rgb(41, 41, 152); height: 40px; width: 120px; border-radius: 20px; box-shadow: none; border: none;" class="" type="submit">Create User</button>
         </form>
     </div>
 </body>
