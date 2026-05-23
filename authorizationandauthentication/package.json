@@ -1,7 +1,7 @@
 {
-  "name": "authorize_authenticate",
+  "name": "authorization",
   "version": "1.0.0",
-  "description": "",
+  "description": "we are judt going to learn about authorize and authentication",
   "homepage": "https://github.com/pratap524/Backend-learning#readme",
   "bugs": {
     "url": "https://github.com/pratap524/Backend-learning/issues"
@@ -11,10 +11,12 @@
     "url": "git+https://github.com/pratap524/Backend-learning.git"
   },
   "license": "ISC",
-  "author": "Major pratap singh sisodiya",
+  "author": "major pratap singh sisodiya",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
+     "dev": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -27,7 +29,6 @@
     "brace-expansion": "^5.0.6",
     "braces": "^3.0.3",
     "bson": "^7.2.0",
-    "buffer-equal-constant-time": "^1.0.1",
     "bytes": "^3.1.2",
     "call-bind-apply-helpers": "^1.0.2",
     "call-bound": "^1.0.4",
@@ -40,7 +41,6 @@
     "debug": "^4.4.3",
     "depd": "^2.0.0",
     "dunder-proto": "^1.0.1",
-    "ecdsa-sig-formatter": "^1.0.11",
     "ee-first": "^1.1.1",
     "ejs": "^5.0.2",
     "encodeurl": "^2.0.0",
@@ -73,16 +73,7 @@
     "is-number": "^7.0.0",
     "is-promise": "^4.0.0",
     "jsonwebtoken": "^9.0.3",
-    "jwa": "^2.0.1",
-    "jws": "^4.0.1",
     "kareem": "^3.3.0",
-    "lodash.includes": "^4.3.0",
-    "lodash.isboolean": "^3.0.3",
-    "lodash.isinteger": "^4.0.4",
-    "lodash.isnumber": "^3.0.3",
-    "lodash.isplainobject": "^4.0.6",
-    "lodash.isstring": "^4.0.1",
-    "lodash.once": "^4.1.1",
     "math-intrinsics": "^1.1.0",
     "media-typer": "^1.1.0",
     "memory-pager": "^1.5.0",
@@ -97,8 +88,6 @@
     "mquery": "^6.0.0",
     "ms": "^2.1.3",
     "negotiator": "^1.0.0",
-    "node-addon-api": "^8.8.0",
-    "node-gyp-build": "^4.8.4",
     "nodemon": "^3.1.14",
     "normalize-path": "^3.0.0",
     "object-inspect": "^1.13.4",
@@ -115,7 +104,6 @@
     "raw-body": "^3.0.2",
     "readdirp": "^3.6.0",
     "router": "^2.2.0",
-    "safe-buffer": "^5.2.1",
     "safer-buffer": "^2.1.2",
     "semver": "^7.8.0",
     "send": "^1.2.1",
