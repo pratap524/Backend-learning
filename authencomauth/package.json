@@ -1,5 +1,5 @@
 {
-  "name": "backend",
+  "name": "authorize_authenticate",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://github.com/pratap524/Backend-learning#readme",
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/pratap524/Backend-learning.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Major pratap singh sisodiya",
   "type": "commonjs",
   "main": "app.js",
   "scripts": {
