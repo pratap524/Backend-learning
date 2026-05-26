@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            width: 300px;
+        }
+
+        .form-group input,
+        .form-group button {
+            padding: 10px 12px;
+            border-radius: 10px;
+            border: none;
+            outline: none;
+        }
+
+        .form-group button {
+            background-color: #2563eb;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body style="background-color: black; color: white;">
+    <div>
+        <h1 style="color: white;">Create Account</h1>
+        <form class="form-group" action="/register" method="POST">
+            <input type="text" name="username" placeholder="Username">
+            <input type="text" name="name" placeholder="Name">
+            <input type="text" name="age" placeholder="Age">
+            <input type="text" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Password">
+
+            <button type="submit">Create Account</button>
+        </form>
+    </div>
+</body>
+</html>
